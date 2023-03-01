@@ -192,7 +192,7 @@ require([], function (){
 
 	}
 	//是否开启动画
-	if(yiliaConfig.animate === false){
+	if(yiliaConfig.animate === true){
 
 		require(['/js/jquery.lazyload.js'], function(){
 			//avatar
